@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "js-sha512": "^0.8.0",
+    "quaternion-to-euler": "^0.5.0",
+    "roslib": "^1.1.0"
+  }
+}

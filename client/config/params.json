@@ -1,0 +1,7 @@
+{
+    "rate" : 1,
+    "robot_name" : "robot0",
+    "port" : 9090,
+    "ip_address" : "localhost",
+    "host_ip_address" : "localhost"
+}
