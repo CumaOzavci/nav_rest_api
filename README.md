@@ -2,6 +2,8 @@
 A ROS REST API for controlling autonomous vehicles.
 
 ## Installation
+- Download package to your catkin workspace
+- At your catkin workspace run `catkin build nav_rest_api`
 - Install [Node.js](https://nodejs.org/en/download/)
 - On server, go to `server` directory and run `npm install`
 - On client, go to `client` directory and run `npm install`
