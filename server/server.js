@@ -16,6 +16,8 @@ app.use("/api/robot", robot);
 app.use("/api/initial_pose", initial_pose);
 app.use("/api/clear_costmap", clear_costmap);
 
+app.use(express.static(__dirname + '/map'));
+
 app.listen(8080, () => {
     console.log("Connection established. Listening port 8080");
 });
