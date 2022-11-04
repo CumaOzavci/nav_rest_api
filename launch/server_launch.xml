@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="server" exec="run_server.sh" pkg="nav_rest_api"/>
+</launch>

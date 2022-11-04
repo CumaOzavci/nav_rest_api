@@ -1,0 +1,8 @@
+<launch>
+    <arg name="port" default="9090"/>
+    <include file="$(find-pkg-share rosbridge_server)/launch/rosbridge_websocket_launch.xml">
+        <arg name="port" value="$(var port)"/>
+    </include>
+    <!-- Client Parameters are stored in ./config/params.json -->
+    <node name="client" exec="run_client.sh" pkg="nav_rest_api"/>
+</launch> 
