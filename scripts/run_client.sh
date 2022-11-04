@@ -1,5 +1,6 @@
 #!/bin/bash
 
-source ~/catkin_ws/devel/setup.bash
-roscd nav_rest_api/client
+source ~/colcon_ws/install/setup.bash
+colcon_cd nav_rest_api
+cd client
 node client.js
